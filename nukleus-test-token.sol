@@ -43,9 +43,7 @@ interface ERC20 {
 }
 
 
-/*
-Nuk Test token
- */
+/* Nuk Test token */
 contract NukTestToken is ERC20 {
 	
 	using SafeMath for uint256;	
