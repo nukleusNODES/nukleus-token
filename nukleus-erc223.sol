@@ -361,7 +361,7 @@ contract NukleusToken is StandardToken, Pausable, BurnableToken, ERC223Interface
   
   uint8 public constant decimals = 0;
   
-  uint256 public constant INITIAL_SUPPLY = 2100000000;
+  uint256 public constant INITIAL_SUPPLY = 2000000000;
   
   constructor() public {
     // owner is already initiated in ownable constructor.
